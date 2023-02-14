@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.AmazonAutomation.QA.Utility.TestListener">
+</listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.amazon.QA.TestCases.SoftwareAccountingAndFinanceTC"/>
+      <class name="com.amazon.QA.BaseClass.BaseClass"/>
+      <class name="com.amazon.QA.TestCases.SoftwareHomePageTC"/>
+      <class name="com.amazon.QA.TestCases.SoftwareantivirsusAndSecurityTC"/>
+      <class name="com.amazon.QA.TestCases.LaunchLoginSearchProducts_TC"/>
+      <class name="com.amazon.QA.TestCases.Software_ListTC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
