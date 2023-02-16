@@ -36,10 +36,6 @@ public class LaunchLoginSearchProducts_TC  extends BaseClass
 	{
 		llpo.LoginPage();
 	}
-	public void display()
-	{
-		System.out.println("This is first commit by vanitha");
-	}
 }
 
 
